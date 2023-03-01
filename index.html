@@ -46,39 +46,16 @@
         <!-- core-content -->
 
         <main>
-
-            <nav class="container-fluid main-nav text-light d-flex justify-content-between align-items-center p-3">
-                <div class="left-bar ">
-                    <div> <span class="fs-3 fw-normal">Boolean</span>
-                        <span class="badge rounded-pill gi-bc-badge fw-light text-light">Piano blaze</span>
-                    </div>
-                    <div>
-                        <section>
-                             <span class="badge rounded-pill gi-bc-badge fw-light text-light">3 app</span>
-                             <i class="fa-solid fa-angles-right"></i>                           
-                             <span class="badge rounded-pill gi-bc-badge fw-light text-light">Boolean mobile app</span>
-                            <span class="badge rounded-pill gi-bc-badge fw-light text-light">Boolean Web app</span>
-                            <span class="badge rounded-pill gi-bc-badge fw-light text-light">Boolean blog app</span>
-
-
-                        </section>
-
-                    </div>
-                </div>
-
-                <div class="central-bar pt-2">
-
-                    <h6 class="fw-light">studenti online negli ultimi 30 minuti</h6>
-                    <p class="fs-2">125</p>
-
-                </div>
-
-                <div class="right-bar d-flex align-items-center justify-content-center ">
-                    <h6 class="fw-light pe-4">nuovo studente</h6>
+            <!-- d-flex justify-content-between align-items-center -->
+            <nav class="container-fluid main-nav text-light p-3 row">
+                <div class="col-12 col-md-4 order-md-last text-center">
+                    <!-- <div class="right-bar d-flex align-items-center justify-content-center "> -->
+                    <span class="fw-light pe-4 ">nuovo studente</span>
 
 
                     <button class="gi-btn-student fs-6 text-center " type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> +</button>
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        +</button>
 
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                         aria-labelledby="offcanvasRightLabel">
@@ -91,67 +68,93 @@
                             inserire roba qui
                         </div>
                     </div>
+                </div>
+                <div class="left-bar col-12 col-md-4">
+                    <div> <span class="fs-3 fw-normal">Boolean</span>
+                        <span class="badge rounded-pill gi-bc-badge fw-light text-light">Piano blaze</span>
+                    </div>
+                    <div>
+                        <section>
+                            <span class="badge rounded-pill gi-bc-badge fw-light text-light">3 app</span>
+                            <i class="fa-solid fa-angles-right"></i>
+                            <span class="badge rounded-pill gi-bc-badge fw-light text-light">Boolean mobile app</span>
+                            <span class="badge rounded-pill gi-bc-badge fw-light text-light">Boolean Web app</span>
+                            <span class="badge rounded-pill gi-bc-badge fw-light text-light">Boolean blog app</span>
+
+
+                        </section>
+
+                    </div>
+                </div>
+
+                <div class="central-bar pt-2 col-12 col-md-4 text-center">
+
+                    <h6 class="fw-light">studenti online negli ultimi 30 minuti</h6>
+                    <p class="fs-2">125</p>
+
+                </div>
+                
 
             </nav>
 
-            <div class="row p-3 ">
-                <div class="col-12 col-md-8">
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                        </ul>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                        </ul>
-                    </div>
-
-
-
+    <div class="row p-3 ">
+        <div class="col-12 col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    Featured
                 </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+            </div>
 
-                <div class="col-12 col-md-4 ">
-
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                        </ul>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-header">
-                            Featured
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">An item</li>
-                            <li class="list-group-item">A second item</li>
-                            <li class="list-group-item">A third item</li>
-                        </ul>
-                    </div>
+            <div class="card">
+                <div class="card-header">
+                    Featured
                 </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
             </div>
 
 
 
+        </div>
 
-        </main>
+        <div class="col-12 col-md-4 ">
+
+            <div class="card">
+                <div class="card-header">
+                    Featured
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    Featured
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">An item</li>
+                    <li class="list-group-item">A second item</li>
+                    <li class="list-group-item">A third item</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    </main>
     </div>
 
 

@@ -1,0 +1,36 @@
+
+/*icon
+----sidebar----
+<i class="fa-solid fa-house"></i>
+<i class="fa-solid fa-chart-simple"></i>
+<i class="fa-solid fa-signal"></i>
+<i class="fa-solid fa-gear"></i>
+-----main----
+<i class="fa-solid fa-trash"></i>
+<i class="fa-solid fa-pen"></i>
+----nav----
+<i class="fa-solid fa-list"></i>
+<i class="fa-solid fa-bell"></i>
+<i class="fa-solid fa-ellipsis-vertical"></i>
+<i class="fa-solid fa-circle-question"></i>*/
+
+
+.debug{
+    border: 1px solid red;
+}
+.wrapper{
+margin-top: 56px;
+overflow: hidden;
+    
+}
+#sidebar{
+    width: 150px;
+    height:calc(100vh - 40px); 
+}
+
+main{
+    overflow: auto;
+    height:calc(100vh - 40px); 
+}
+
+

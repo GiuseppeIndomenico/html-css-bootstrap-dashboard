@@ -35,22 +35,26 @@ main {
 
 }
 
-.main-nav, .gi-btn-student {
+.main-nav,
+.gi-btn-student {
     background-color: var(--bs-blue);
 }
 
-.gi-btn-student{
-   border: 1px solid white;
-   border-radius: 5px;
-   width: 30px;
-   height: 30px;
-   line-height: 18px;
-   color: white;
-   transition: all .5s;
-    
+.gi-btn-student {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    transition: all .5s;
+
 }
 
-.gi-btn-student:hover{
+.gi-btn-student:hover {
     background-color: white;
     color: var(--bs-blue);
+}
+
+.gi-bc-badge{
+    background-color: rgba(0, 0, 0, 0.2);
 }

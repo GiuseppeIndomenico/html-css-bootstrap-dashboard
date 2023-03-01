@@ -38,6 +38,10 @@ main {
 
 }
 
+.main-nav{
+    height:120px
+}
+
 .main-nav,
 .gi-btn-student {
     background-color: var(--bs-blue);
@@ -66,7 +70,14 @@ main {
     display: none;
 }
 
+.gi-log-clas{
+    width: 20px;
+    height: 20px;
+}
 
+.btn.btn-outline-secondary{
+    font-size: 12px;
+}
 
 @media screen and (min-width:768px) {
     .gi-md-large{

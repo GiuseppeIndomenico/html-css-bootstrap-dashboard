@@ -27,15 +27,17 @@
 }
 
 #sidebar {
-    width: 150px;
+    width: 60px;
     background-color: #051d33;
     background-image: url(../img/sidebar-bg.png);
+    color: white;
+    padding: 15px;
 
 }
 
 main {
     overflow-y: auto;
-    width:calc(100% - 150px);
+    width:calc(100% - 130px);
   
 }
 
@@ -84,13 +86,19 @@ main {
     .gi-md-large{
         display: inline;
     }
+
+    
+    
 }
 
 @media screen and (min-width:1200px) {
-.gi-small{
-    display: none;
-}
-.gi-large{
-    display: inline;
-}    
+    .gi-small{
+        display: none;
+    }
+    .gi-large{
+        display: inline;
+    }    
+    #sidebar{
+        width: 130px;
+    }
 }

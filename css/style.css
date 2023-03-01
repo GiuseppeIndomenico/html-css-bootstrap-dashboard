@@ -22,6 +22,7 @@
     margin-top: 56px;
     overflow: hidden;
     height: calc(100vh - 56px);
+    width: 100%;
 
 }
 
@@ -33,13 +34,13 @@
 }
 
 main {
-    overflow: auto;
-    width: 100% ;
-
+    overflow-y: auto;
+    width:calc(100% - 150px);
+  
 }
 
 .main-nav{
-    height:120px
+    width:100%
 }
 
 .main-nav,

@@ -62,8 +62,16 @@ main {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.gi-large{
+.gi-large, .gi-md-large{
     display: none;
+}
+
+
+
+@media screen and (min-width:768px) {
+    .gi-md-large{
+        display: inline;
+    }
 }
 
 @media screen and (min-width:1200px) {

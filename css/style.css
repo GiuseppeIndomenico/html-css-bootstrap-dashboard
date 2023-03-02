@@ -85,6 +85,9 @@ main {
 #offcanvasRight{
     width: 100%;
 }
+.logo{
+    width: 45px;
+}
 
 @media screen and (min-width:768px) {
     .gi-md-large{

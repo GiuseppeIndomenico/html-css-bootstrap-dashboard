@@ -15,37 +15,61 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-            <div class="container-fluid row">
-                <div class="col-2">
+        <nav class="d-flex align-items-center bg-body-tertiary fixed-top">
+            <div class="container-fluid bg-white ">
 
-                    <a class="navbar-brand" href="#">
-                        <div class="logo gi-large">
-                            <img class="img-fluid" src="./img/logo.svg" alt="">
-                        </div>
-                        <div class="logo gi-small">
-                            <img class="img-fluid" src="./img/mobile-logo.png" alt="">
-                        </div>
-                    </a>
+                <div class="row align-items-center">
 
-                </div>
-                <div class="col-8">
-                    <div class="input-group">
-                        <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
-                        <input type="search" class="form-control bg-body-tertiary border-start-0"
-                            placeholder="Prova a cercare lezioni di Laravel" id="search" aria-describedby="search">
+
+                    <div class="col-2">
+
+                        <a class="navbar-brand" href="#">
+                            <div class="logo gi-large">
+                                <img class="img-fluid" src="./img/logo.svg" alt="">
+                            </div>
+                            <div class="logo gi-small">
+                                <img class="img-fluid" src="./img/mobile-logo.png" alt="">
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="col-7">
+                        <div class="input-group">
+                            <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <input type="search" class="form-control bg-body-tertiary border-start-0"
+                                placeholder="Prova a cercare lezioni di Laravel" id="search" aria-describedby="search">
+
+                        </div>
 
                     </div>
 
+                    <div class="col-3 text-center d-flex flex-row-reverse">
+
+                        <div class="dropdown">
+                            <button class="m-1 gi-orange border-0 bg-white" type="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+
+                                <i class="fa-solid fa-bell"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-light">
+                                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
+                               
+                            </ul>
+                        </div>
+
+
+                        <div class="gi-md-large m-1"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+                        <div class="gi-md-large m-1"> <i class="fa-solid fa-circle-question"></i> </div>
+                        <div class="gi-md-large m-1"> <i class="fa-solid fa-list"></i> </div>
+
+
+                    </div>
+
+
                 </div>
 
-                <div class="col-2">
-                    <div class="gi-md-large m-1"> <i class="fa-solid fa-list"></i> </div>
-                    <div class="gi-md-large m-1"> <i class="fa-solid fa-circle-question"></i> </div>
-                    <div class="gi-md-large m-1"><i class="fa-solid fa-ellipsis-vertical"></i></div>
-
-
-                </div>
 
 
 
@@ -60,15 +84,15 @@
         <section id="sidebar" class=" flex-shrink-0 p-2 d-flex flex-column justify-content-between align-items-center">
 
             <div class="sidebar-top">
-                <div> <i class="fa-solid fa-house"></i>
+                <div class="gi-white"> <i class="fa-solid fa-house"></i>
                     <span class="gi-large">Home</span>
                 </div>
-                <div>
+                <div class="gi-white">
                     <i class="fa-solid fa-chart-simple"></i>
                     <span class="gi-large">Stats</span>
 
                 </div>
-                <div>
+                <div class="gi-white">
                     <i class="fa-solid fa-signal"></i>
 
                     <span class="gi-large">Signals</span>
@@ -76,9 +100,13 @@
                 </div>
             </div>
 
-            <div class="sidebar-bottom">
-                <i class="fa-solid fa-gear"></i>
-                <span class="gi-large">Admin</span>
+            <div class="sidebar-bottom ">
+
+                <div class="gi-white">
+                    <i class="fa-solid fa-gear"></i>
+                    <span class="gi-large">Admin</span>
+
+                </div>
             </div>
 
 
@@ -256,7 +284,7 @@
 
                             </li>
                             <li class="list-group-item">
-                                <div class="row ">
+                                <div class="row  gi-grey">
                                     <div
                                         class="col-4 col-md-4 col-lg-6 d-flex justify-content-start align-items-center ">
                                         <div class="gi-log-clas"><img class="img-fluid" src="./img/class-avatar.jpg"
@@ -281,7 +309,7 @@
                             </li>
 
                             <li class="list-group-item">
-                                <div class="row ">
+                                <div class="row  gi-grey">
                                     <div
                                         class="col-4 col-md-4 col-lg-6 d-flex justify-content-start align-items-center ">
                                         <div class="gi-log-clas"><img class="img-fluid" src="./img/class-avatar.jpg"
@@ -306,7 +334,7 @@
                             </li>
 
                             <li class="list-group-item">
-                                <div class="row ">
+                                <div class="row  gi-grey ">
                                     <div
                                         class="col-4 col-md-4 col-lg-6 d-flex justify-content-start align-items-center ">
                                         <div class="gi-log-clas"><img class="img-fluid" src="./img/class-avatar.jpg"
@@ -331,7 +359,7 @@
                             </li>
 
                             <li class="list-group-item">
-                                <div class="row ">
+                                <div class="row gi-grey">
                                     <div
                                         class="col-4 col-md-4 col-lg-6 d-flex justify-content-start align-items-center ">
                                         <div class="gi-log-clas"><img class="img-fluid" src="./img/class-avatar.jpg"
@@ -356,7 +384,7 @@
                             </li>
 
                             <li class="list-group-item">
-                                <div class="row ">
+                                <div class="row  gi-grey">
                                     <div
                                         class="col-4 col-md-4 col-lg-6 d-flex justify-content-start align-items-center ">
                                         <div class="gi-log-clas"><img class="img-fluid" src="./img/class-avatar.jpg"
@@ -381,7 +409,7 @@
                             </li>
 
                             <li class="list-group-item">
-                                <div class="row ">
+                                <div class="row  gi-grey">
                                     <div
                                         class="col-4 col-md-4 col-lg-6 d-flex justify-content-start align-items-center ">
                                         <div class="gi-log-clas"><img class="img-fluid" src="./img/class-avatar.jpg"
@@ -406,7 +434,7 @@
                             </li>
 
                             <li class="list-group-item">
-                                <div class="row ">
+                                <div class="row  gi-grey">
                                     <div
                                         class="col-4 col-md-4 col-lg-6 d-flex justify-content-start align-items-center ">
                                         <div class="gi-log-clas"><img class="img-fluid" src="./img/class-avatar.jpg"
@@ -431,7 +459,7 @@
                             </li>
 
                             <li class="list-group-item">
-                                <div class="row ">
+                                <div class="row  gi-grey">
                                     <div
                                         class="col-4 col-md-4 col-lg-6 d-flex justify-content-start align-items-center ">
                                         <div class="gi-log-clas"><img class="img-fluid" src="./img/class-avatar.jpg"

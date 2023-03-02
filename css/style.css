@@ -21,11 +21,19 @@
 }
 
 .wrapper {
-    margin-top: 56px;
+    margin-top: 70px;
     overflow: hidden;
-    height: calc(100vh - 56px);
+    height: calc(100vh - 70px);
     width: 100%;
 
+}
+
+.gi-orange{
+    color: orange;
+}
+
+header nav{
+    height: 70px;
 }
 
 #sidebar {
@@ -65,6 +73,13 @@ main {
 .gi-btn-student:hover {
     background-color: white;
     color: var(--bs-blue);
+}
+
+.gi-white:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.gi-grey:hover{
+    background-color: lightgrey;
 }
 
 .gi-bc-badge{

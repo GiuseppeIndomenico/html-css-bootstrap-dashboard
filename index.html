@@ -79,7 +79,7 @@
                         data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+
                     </button>
 
-                    <div  class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
                         aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
                             <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
@@ -87,7 +87,101 @@
                                 aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
-                            
+
+                            <form>
+
+                                <div class="row">
+
+                                    <div class="mb-3 col-12 col-md-6 fw-semibold">
+                                        <label for="nome" class="form-label">Nome</label>
+                                        <input type="text" class="form-control" id="name">
+                                    </div>
+
+                                    <div class="mb-3 col-12 col-md-6 fw-semibold">
+                                        <label for="cognome" class="form-label">Cognome</label>
+                                        <input type="text" class="form-control" id="last-name">
+                                    </div>
+
+                                    <div class="mb-3 col-12 col-md-6 fw-semibold">
+                                        <label for="CityBorn" class="form-label">nato a </label>
+
+                                        <input type="text" class="form-control" id="Born"
+                                            aria-describedby="born">
+
+
+                                    </div>
+                                    <div class="mb-3 col-12 col-md-6 fw-semibold">
+                                        <label for="Birth" class="form-label">Data di Nascita</label>
+                                        <input type="text" class="form-control" id="Birth">
+                                    </div>
+                                    <div class="mb-3 col-12 col-md-6 fw-semibold">
+                                        <label for="exampleInputEmail1" class="form-label">Indirizzo Email </label>
+                                        <div class="input-group">
+                                            <span class="input-group-text">@</span>
+                                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                                aria-describedby="emailHelp">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3 col-12 col-md-6 fw-semibold">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+
+                                    <div class="mb-3 col-12 fw-semibold">
+                                        <label for="indirizzo" class="form-label">indirizzo</label>
+                                        <input type="text" class="form-control" id="indirizzo">
+                                    </div>
+
+                                    <div class="mb-3 col-12 col-md-6 fw-semibold">
+                                        <label for="Città" class="form-label">Città</label>
+                                        <input type="text" class="form-control" id="name">
+                                    </div>
+
+                                    <div class="mb-3 col-12 col-md-4 fw-semibold">
+                                        <label for="stato" class="form-label">Stato</label>
+                                        <input type="text" class="form-control" id="last-name">
+                                    </div>
+
+                                    
+                                    <div class="mb-3 col-12 col-md-2 fw-semibold">
+                                        <label for="cap" class="form-label">CAP</label>
+                                        <input type="text" class="form-control" id="last-name">
+                                    </div>
+
+                                    <div class="mb-3 col-12 fw-semibold">
+                                        <label for="indirizzo" class="form-label">Foto</label>
+
+                                        <div class="input-group ">
+                                            
+                                            <input type="file" class="form-control fw-semibold" id="foto"
+                                                aria-describedby="file" placeholder="nessun file selezionato">
+
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="mb-3 form-check col-12 m-3 fw-semibold">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Seleziona per
+                                            proseguire</label>
+                                    </div>
+
+                                    <div class="col-2 d-flex  ">
+                                        <button type="submit" class="btn btn-primary ms-0 m-2 fw-semibold">Salva</button>
+
+                                        <button type="submit" class="btn btn-warning m-2 fw-semibold">Svuota</button>
+
+                                    </div>
+
+
+                                </div>
+                            </form>
+
+
+
                         </div>
                     </div>
                 </div>

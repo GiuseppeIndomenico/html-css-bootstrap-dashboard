@@ -82,9 +82,17 @@ main {
     font-size: 12px;
 }
 
+#offcanvasRight{
+    width: 100%;
+}
+
 @media screen and (min-width:768px) {
     .gi-md-large{
         display: inline;
+    }
+
+    #offcanvasRight{
+        width: 75%;
     }
 
     
@@ -100,5 +108,9 @@ main {
     }    
     #sidebar{
         width: 130px;
+    }
+
+    #offcanvasRight{
+        width: 45%;
     }
 }

@@ -16,15 +16,36 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <div class="logo gi-large">
-                        <img class="img-fluid" src="./img/logo.svg" alt="">
+            <div class="container-fluid row">
+                <div class="col-2">
+
+                    <a class="navbar-brand" href="#">
+                        <div class="logo gi-large">
+                            <img class="img-fluid" src="./img/logo.svg" alt="">
+                        </div>
+                        <div class="logo gi-small">
+                            <img class="img-fluid" src="./img/mobile-logo.png" alt="">
+                        </div>
+                    </a>
+
+                </div>
+                <div class="col-8">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        <input type="search" class="form-control bg-body-tertiary border-start-0"
+                            placeholder="Prova a cercare lezioni di Laravel" id="search" aria-describedby="search">
+
                     </div>
 
-                    <div class="logo gi-small"><img class="img-fluid" src="./img/mobile-logo.png" alt=""></div>
-                </a>
-                
+                </div>
+
+                <div class="col-2">
+                    <div class="gi-md-large m-1"> <i class="fa-solid fa-list"></i> </div>
+                    <div class="gi-md-large m-1"> <i class="fa-solid fa-circle-question"></i> </div>
+                    <div class="gi-md-large m-1"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+
+
+                </div>
 
 
 
@@ -102,8 +123,7 @@
                                     <div class="mb-3 col-12 col-md-6 fw-semibold">
                                         <label for="CityBorn" class="form-label">nato a </label>
 
-                                        <input type="text" class="form-control" id="Born"
-                                            aria-describedby="born">
+                                        <input type="text" class="form-control" id="Born" aria-describedby="born">
 
 
                                     </div>
@@ -141,7 +161,7 @@
                                         <input type="text" class="form-control" id="last-name">
                                     </div>
 
-                                    
+
                                     <div class="mb-3 col-12 col-md-2 fw-semibold">
                                         <label for="cap" class="form-label">CAP</label>
                                         <input type="text" class="form-control" id="last-name">
@@ -151,7 +171,7 @@
                                         <label for="indirizzo" class="form-label">Foto</label>
 
                                         <div class="input-group ">
-                                            
+
                                             <input type="file" class="form-control fw-semibold" id="foto"
                                                 aria-describedby="file" placeholder="nessun file selezionato">
 
@@ -167,7 +187,8 @@
                                     </div>
 
                                     <div class="col-2 d-flex  ">
-                                        <button type="submit" class="btn btn-primary ms-0 m-2 fw-semibold">Salva</button>
+                                        <button type="submit"
+                                            class="btn btn-primary ms-0 m-2 fw-semibold">Salva</button>
 
                                         <button type="submit" class="btn btn-warning m-2 fw-semibold">Svuota</button>
 
